@@ -1,0 +1,480 @@
+2025-02-14 13:13:40 [main] INFO  com.ontlogieai.Main - Application starting...
+2025-02-14 13:13:40 [main] INFO  com.ontlogieai.Main - Look and feel set successfully.
+2025-02-14 13:13:40 [main] INFO  com.ontlogieai.Main - Application started successfully.
+2025-02-14 13:13:52 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Processing file: J270-06 BMS 6th Floor Room control Instrument List J-Building_YOKO_02Dec2024.xlsx
+2025-02-14 13:13:52 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Reading Excel file: J270-06 BMS 6th Floor Room control Instrument List J-Building_YOKO_02Dec2024.xlsx
+2025-02-14 13:13:55 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - File processed successfully: Processed_J270-06 BMS 6th Floor Room control Instrument List J-Building_YOKO_02Dec2024.xlsx
+2025-02-14 13:14:34 [main] INFO  com.ontlogieai.Main - Application starting...
+2025-02-14 13:14:34 [main] INFO  com.ontlogieai.Main - Look and feel set successfully.
+2025-02-14 13:14:35 [main] INFO  com.ontlogieai.Main - Application started successfully.
+2025-02-14 13:14:43 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Processing file: J270-06 BMS 6th Floor Room control Instrument List J-Building_YOKO_02Dec2024.xlsx
+2025-02-14 13:14:43 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Reading Excel file: J270-06 BMS 6th Floor Room control Instrument List J-Building_YOKO_02Dec2024.xlsx
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: , Point Description: 
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: Device Tag, Point Description: Point Descriptor
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J270-06-2XA-001, Point Description: J270-06-2XA-001 - J270-06-1PNL-001 - 230VAC Thermal Fault Signal
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J270-06-2XA-002, Point Description: J270-06-2XA-002 - J270-06-1PNL-001 - 24VDC Thermal Fault Signal
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J270-06-2XA-004, Point Description: J270-06-2XA-004 - J270-06-1PNL-001 - Surge Voltage Arrester Signal
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J270-06-2XA-005, Point Description: J270-06-2XA-005 - J270-06-1PNL-001 - Common Fire Alarm
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TT-612, Point Description: J460-01-2TT-612 - Chilled Water - Supply Temperature
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TT-613, Point Description: J460-01-2TT-613 - Chilled Water - Return Temperature
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-643, Point Description: J460-01-2FCV-643 - Chilled Water Valve - Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1PMP-601, Point Description: J460-01-1PMP-601 - Chilled water Circulation pump - Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1PMP-601, Point Description: J460-01-2XA-601 - Chilled water Circulation pump J460-01-1PMP-601 - Alarm
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1PMP-601, Point Description: J460-01-2SS-601 - Chilled water Circulation pump J460-01-1PMP-601 - Status
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1PMP-601, Point Description: J460-01-2SC-601 - Chilled water Circulation pump J460-01-1PMP-601 - Control Signal
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1PMP-601, Point Description: J460-01-2XS-601 - Chilled water Circulation pump J460-01-1PMP-601 - Enable
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1PMP-601, Point Description: J460-01-2HSI-601 - Chilled water Circulation pump J460-01-1PMP-601 - Maintanance Switch
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FT-601, Point Description: J460-01-2FT-601 - Chilled Water - Energy Meter
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FT-602, Point Description: J460-01-2FT-602 - Hot Water - Energy Meter
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FT-604, Point Description: J460-01-2FT-604 - 61LBK3 - Return Air Flow
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TT-616, Point Description: J460-01-2TT-616 - 61LBK3 - Return Air Temperature
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FT-603, Point Description: J460-01-2FT-603 - 61LBK3 - Supply Air Flow
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TT-614, Point Description: J460-01-2TT-614 - 61LBK3 - Supply Air Temperature
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2MT-614, Point Description: J460-01-2MT-614 - 61LBK3 - Supply Air Humidity
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J100-06-2TT-001, Point Description: J100-06-2TT-001 - Potable Water - Temperature
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J100-06-2FT-001, Point Description: J100-06-2FT-001 - Potable Water - Flow
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J100-06-2TT-002, Point Description: J100-06-2TT-002 - Potable  Hot Water - Inlet Temperature Heater
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J100-06-2XCV-001, Point Description: J100-06-2XCV-001 - Legionella Dump Valve
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J130-06-2TT-001, Point Description: J130-06-2TT-001 - Non Potable Water - Temperature
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J130-06-2PT-001, Point Description: J130-06-2PT-001 - Non Potable Water - Pressure
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J130-06-2FT-001, Point Description: J130-06-2FT-001 - Non Potable Water - Flow
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J305-06-2FT-001, Point Description: J305-06-2FT-001 - Compressed Air - Flow Meter
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J305-06-2PT-001, Point Description: J305-06-2PT-001 - Compressed Air - Pressure
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J305-06-2MT-001, Point Description: J305-06-2MT-001 - Compressed Air - Dewpoint
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J320-06-2FT-001, Point Description: J320-06-2FT-001 - Carbon Dioxide Gas - Flow Meter
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J320-06-2PT-001, Point Description: J320-06-2PT-001 - Carbon Dioxide Gas - Pressure
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J330-06-2FT-001, Point Description: J330-06-2FT-001 - Nitrogen Gas - Flow Meter
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J330-06-2PT-001, Point Description: J330-06-2PT-001 - Nitrogen Gas - Pressure
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J229-06-1QIT-001, Point Description: J229-06-1QIT-001 - SVK-6H - Energy Meter
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J229-06-1QIT-002, Point Description: J229-06-1QIT-002 - VK-6H-1 - Energy Meter
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J229-06-1QIT-003, Point Description: J229-06-1QIT-003 - VK-6H-2 - Energy Meter
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J229-06-1QIT-004, Point Description: J229-06-1QIT-004 - VK-6H-3 - Energy Meter
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J229-06-1QIT-005, Point Description: J229-06-1QIT-005 - VK-6H-4 - Energy Meter
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J232-06-1UPS-001, Point Description: J232-06-1UPS-001 - Parameters UPS MDF room 6th floor
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J229-06-2XA-101, Point Description: J229-06-2XA-101 - SVK-6H - Circuit Breaker Tripped
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J229-06-2XA-102, Point Description: J229-06-2XA-102 - SVK-6H - Voltage Surge Arrestor
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J229-06-2XA-103, Point Description: J229-06-2XA-103 - VK-6H-1 - Circuit Breaker Tripped
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J229-06-2XA-104, Point Description: J229-06-2XA-104 - VK-6H-1 - Voltage Surge Arrestor
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J229-06-2XA-105, Point Description: J229-06-2XA-105 - VK-6H-2 - Circuit Breaker Tripped
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J229-06-2XA-106, Point Description: J229-06-2XA-106 - VK-6H-2 - Voltage Surge Arrestor
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J229-06-2XA-107, Point Description: J229-06-2XA-107 - VK-6H-3 - Circuit Breaker Tripped
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J229-06-2XA-108, Point Description: J229-06-2XA-108 - VK-6H-3 - Voltage Surge Arrestor
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J229-06-2XA-109, Point Description: J229-06-2XA-109 - VK-6H-4 - Circuit Breaker Tripped
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J229-06-2XA-110, Point Description: J229-06-2XA-110 - VK-6H-4 - Voltage Surge Arrestor
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J229-06-2XA-111, Point Description: J229-06-2XA-111 - VK-UPS-6H-5 - Circuit Breaker Tripped
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J229-06-2XA-112, Point Description: J229-06-2XA-112 - VK-UPS-6H-5 - Voltage Surge Arrestor
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FT-602, Point Description: J460-02-2FT-602 - 61LBK2 - Return Air Flow
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TT-608, Point Description: J460-02-2TT-608 - 61LBK2 - Return Air Temperature
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FT-601, Point Description: J460-02-2FT-601 - 61LBK2 - Supply Air Flow
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TT-607, Point Description: J460-02-2TT-607 - 61LBK2 - Supply Air Temperature
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2MT-607, Point Description: J460-02-2MT-607 - 61LBK2 - Supply Air Humidity
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2KS-603, Point Description: J460-02-2KS-603 - Labs Day Extention Timer - Timer
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2XI-603, Point Description: J460-02-2XI-603 - Labs Day Extention Timer - Indicator
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2XS-603, Point Description: J460-02-2XS-603 - Labs Day Extention Timer - Enable
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TT-003, Point Description: J460-01-2TT-003 - Chilled Water - Return Temperature
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TT-002, Point Description: J460-01-2TT-002 - Chilled Water - Supply Temperature
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-001, Point Description: J460-01-2FCV-001 - Chilled Water Valve - Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1PMP-001, Point Description: J460-01-1PMP-001 - Chilled water Circulation pump - Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1PMP-001, Point Description: J460-01-2XA-001 - Chilled water Circulation pump J460-01-1PMP-001 - Alarm
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1PMP-001, Point Description: J460-01-2SS-001 - Chilled water Circulation pump J460-01-1PMP-001 - Status
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1PMP-001, Point Description: J460-01-2SC-001 - Chilled water Circulation pump J460-01-1PMP-001 - Control Signal
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1PMP-001, Point Description: J460-01-2XS-001 - Chilled water Circulation pump J460-01-1PMP-001 - Enable
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1PMP-001, Point Description: J460-01-2HSI-001 - Chilled water Circulation pump J460-01-1PMP-001 - Maintanance Switch
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J140-06-2FT-002, Point Description: J140-06-2FT-002 - Demi Water - Return Flow
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J140-06-2FT-001, Point Description: J140-06-2FT-001 - Demi Water - Supply Flow
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J140-06-2PT-001, Point Description: J140-06-2PT-001 - Demi Water - Inlet Pressure
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J140-06-2PT-002, Point Description: J140-06-2PT-002 - Demi Water - Outlet Pressure
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J140-06-2PT-003, Point Description: J140-06-2PT-003 - Demi Water - Return Pressure
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TT-617, Point Description: J460-02-2TT-617 - Chilled Water - Return Temperature
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TT-616, Point Description: J460-02-2TT-616 - Chilled Water - Supply Temperature
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-624, Point Description: J460-02-2FCV-624 - Chilled Water Valve - Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-1PMP-601, Point Description: J460-02-1PMP-601 - Chilled water Circulation pump - Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-1PMP-601, Point Description: J460-02-2XA-601 - Chilled water Circulation pump J460-02-1PMP-601 - Alarm
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-1PMP-601, Point Description: J460-02-2SS-601 - Chilled water Circulation pump J460-02-1PMP-601 - Status
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-1PMP-601, Point Description: J460-02-2SC-601 - Chilled water Circulation pump J460-02-1PMP-601 - Control Signal
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-1PMP-601, Point Description: J460-02-2XS-601 - Chilled water Circulation pump J460-02-1PMP-601 - Enable
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-1PMP-601, Point Description: J460-02-2HSI-601 - Chilled water Circulation pump J460-02-1PMP-601 - Maintanance Switch
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2PT-902, Point Description: J460-02-2PT-902 - Exhaust Duct J460-02-2B-902- Pressure
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2B-902, Point Description: J460-02-2XC-902 - Exhaust Fan J460-02-2B-902 - Control Signal
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2B-902, Point Description: J460-02-2XA-902 - Exhaust Fan J460-02-2B-902 - Alarm
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2B-902, Point Description: J460-02-2HSI-902 - Exhaust Fan J460-02-2B-902- Maintanace Switch
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TC-601, Point Description: J460-01-2TC-601 - Room J6.02 - Room Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-601, Point Description: J460-01-2FCV-601 - Room J6.02 - Reheater Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TC-602, Point Description: J460-01-2TC-602 - Room J6.03 - Room Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-602, Point Description: J460-01-2FCV-602 - Room J6.03 - Reheater Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TC-603, Point Description: J460-01-2TC-603 - Room J6.06 - Room Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-603, Point Description: J460-01-2FCV-603 - Room J6.06 - J460-01-1ACU-601 Heating Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-604, Point Description: J460-01-2FCV-604 - Room J6.06 - J460-01-1ACU-602 Heating Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-605, Point Description: J460-01-2FCV-605 - Room J6.06 - J460-01-1ACU-603 Heating Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-606, Point Description: J460-01-2FCV-606 - Room J6.06 - J460-01-1ACU-604 Heating Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-607, Point Description: J460-01-2FCV-607 - Room J6.06 - J460-01-1ACU-601 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-608, Point Description: J460-01-2FCV-608 - Room J6.06 - J460-01-1ACU-602 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-609, Point Description: J460-01-2FCV-609 - Room J6.06 - J460-01-1ACU-603 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-610, Point Description: J460-01-2FCV-610 - Room J6.06 - J460-01-1ACU-604 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-601, Point Description: J460-01-2FC-601 - Room J6.06 - Return Air Flow Control.
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-602, Point Description: J460-01-2FC-602 - Room J6.06 - Return Air Flow Control.
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-603, Point Description: J460-01-2FC-603 - Room J6.06 - Supply Air Flow Control.
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-604, Point Description: J460-01-2FC-604 - Room J6.06 - Return Air Flow Control.
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TC-612, Point Description: J460-01-2TC-612 - Room J6.04 - MDF Room Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1ACU-618, Point Description: J460-01-1ACU-618 - Room J6.04 - Fan Coil unit Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1ACU-619, Point Description: J460-01-1ACU-619 - Room J6.04 - Fan Coil unit Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TC-604, Point Description: J460-01-2TC-604 - Room J6.07 - Room Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-611, Point Description: J460-01-2FCV-611 - Room J6.07 - Reheater Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-605, Point Description: J460-01-2FC-605 - Room J6.07 - Supply Air Fow Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-606, Point Description: J460-01-2FC-606 - Room J6.07 - Return Air Flow Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-612, Point Description: J460-01-2FCV-612 - Room J6.06 - J460-01-1ACU-605 Heating Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-613, Point Description: J460-01-2FCV-613 - Room J6.06 - J460-01-1ACU-606 Heating Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-614, Point Description: J460-01-2FCV-614 - Room J6.06 - J460-01-1ACU-607 Heating Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-615, Point Description: J460-01-2FCV-615 - Room J6.06 - J460-01-1ACU-608 Heating Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-616, Point Description: J460-01-2FCV-616 - Room J6.06 - J460-01-1ACU-605 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-617, Point Description: J460-01-2FCV-617 - Room J6.06 - J460-01-1ACU-606 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-618, Point Description: J460-01-2FCV-618 - Room J6.06 - J460-01-1ACU-607 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-619, Point Description: J460-01-2FCV-619 - Room J6.06 - J460-01-1ACU-608 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-607, Point Description: J460-01-2FC-607 - Room J6.06 - Return Air Flow Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-608, Point Description: J460-01-2FC-608 - Room J6.06 - Supply Air Fow Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TC-605, Point Description: J460-01-2TC-605 - Room J6.05 - Room Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-620, Point Description: J460-01-2FCV-620 - Room J6.05 - Reheater Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-610, Point Description: J460-01-2FC-610 - Room J6.05 - Return Air Flow Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-609, Point Description: J460-01-2FC-609 - Room J6.05 - Supply Air Fow Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-621, Point Description: J460-01-2FCV-621 - Room J6.06 - J460-01-1ACU-609 Heating Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-622, Point Description: J460-01-2FCV-622 - Room J6.06 - J460-01-1ACU-609 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-611, Point Description: J460-01-2FC-611 - Room J6.06 - Supply Air Fow Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TC-606, Point Description: J460-01-2TC-606 - Room J6.08 - Room Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-623, Point Description: J460-01-2FCV-623 - Room J6.08 - Reheater Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TC-607, Point Description: J460-01-2TC-607 - Room J6.09 - Room Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-624, Point Description: J460-01-2FCV-624 - Room J6.09 - J460-01-1ACU-610 Heating Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-625, Point Description: J460-01-2FCV-625 - Room J6.09 - J460-01-1ACU-611 Heating Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-626, Point Description: J460-01-2FCV-626 - Room J6.09 - J460-01-1ACU-612 Heating Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-627, Point Description: J460-01-2FCV-627 - Room J6.09 - J460-01-1ACU-613 Heating Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-628, Point Description: J460-01-2FCV-628 - Room J6.09 - J460-01-1ACU-610 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-629, Point Description: J460-01-2FCV-629 - Room J6.09 - J460-01-1ACU-611 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-630, Point Description: J460-01-2FCV-630 - Room J6.09 - J460-01-1ACU-612 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-631, Point Description: J460-01-2FCV-631 - Room J6.09 - J460-01-1ACU-613 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-612, Point Description: J460-01-2FC-612 - Room J6.09 - Return Air Flow Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-613, Point Description: J460-01-2FC-613 - Room J6.09 - Supply Air Fow Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TC-608, Point Description: J460-01-2TC-608 - Room J6.10 - Room Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-632, Point Description: J460-01-2FCV-632 - Room J6.10 - Reheater Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TC-609, Point Description: J460-01-2TC-609 - Room J6.11 - Room Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-633, Point Description: J460-01-2FCV-633 - Room J6.11 - J460-01-1ACU-614 Heating Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-634, Point Description: J460-01-2FCV-634 - Room J6.11 - J460-01-1ACU-615 Heating Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-635, Point Description: J460-01-2FCV-635 - Room J6.11 - J460-01-1ACU-616 Heating Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-636, Point Description: J460-01-2FCV-636 - Room J6.11 - J460-01-1ACU-617 Heating Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-637, Point Description: J460-01-2FCV-637 - Room J6.11 - J460-01-1ACU-614 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-638, Point Description: J460-01-2FCV-638 - Room J6.11 - J460-01-1ACU-615 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-639, Point Description: J460-01-2FCV-639 - Room J6.11 - J460-01-1ACU-616 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-640, Point Description: J460-01-2FCV-640 - Room J6.11 - J460-01-1ACU-617 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-614, Point Description: J460-01-2FC-614 - Room J6.11 - Return Air Flow Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-615, Point Description: J460-01-2FC-615 - Room J6.11 - Supply Air Fow Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TC-610, Point Description: J460-01-2TC-610 - Room J6.13 - Room Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-641, Point Description: J460-01-2FCV-641 - Room J6.13 - Reheater Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-616, Point Description: J460-01-2FC-616 - Room J6.13 - Supply Air Fow Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-617, Point Description: J460-01-2FC-617 - Room J6.13 - Return Air Flow Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TC-611, Point Description: J460-01-2TC-611 - Room J6.12 - Room Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-642, Point Description: J460-01-2FCV-642 - Room J6.12 - Reheater Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TC-601, Point Description: J460-02-2TC-601 - Room J6.20 - Lab Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-601, Point Description: J460-02-2FCV-601 - Room J6.20 - Reheater Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-602, Point Description: J460-02-2FCV-602 - Room J6.20 - J460-02-1ACU-602 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-601, Point Description: J460-02-2FC-601 - Room J6.20 - Air Fow Control (Slave VAV-602, VAV-603, VAV-604)
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TC-602, Point Description: J460-02-2TC-602 - Room J6.22 - Lab Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-603, Point Description: J460-02-2FCV-603 - Room J6.22 - J460-02-1ACU-601 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-604, Point Description: J460-02-2FCV-604 - Room J6.22 - J460-02-1ACU-601 Heating Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-605, Point Description: J460-02-2FC-605 - Room J6.22 - Air Fow Control (Slave VAV-644, VAV-606)
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-606, Point Description: J460-02-2XU-606 - Room J6.22 - Fume hood.
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TC-603, Point Description: J460-02-2TC-603 - Room J6.23 - Lab Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-605, Point Description: J460-02-2FCV-605 - Room J6.23 - Reheater Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-607, Point Description: J460-02-2FC-607 - Room J6.23 - Air Fow Control (Slave VAV-608)
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-606, Point Description: J460-02-2FCV-606 - Room J6.23 - Reheater Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-607, Point Description: J460-02-2FCV-607 - Room J6.23 - J460-02-1ACU-603 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-609, Point Description: J460-02-2FC-609 - Room J6.23 - Air Fow Control (Slave VAV-610, VAV-611)
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TC-609, Point Description: J460-02-2TC-609 - Room J6.23 - Lab Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-608, Point Description: J460-02-2FCV-608 - Room J6.23 - Reheater Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-609, Point Description: J460-02-2FCV-609 - Room J6.23 - J460-02-1ACU-604 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-612, Point Description: J460-02-2FC-612 - Room J6.23 - Air Fow Control (Slave VAV-613, VAV-614)
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TC-610, Point Description: J460-02-2TC-610 - Room J6.23 - Lab Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-610, Point Description: J460-02-2FCV-610 - Room J6.23 - Reheater Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-611, Point Description: J460-02-2FCV-611 - Room J6.23 - J460-02-1ACU-605 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-615, Point Description: J460-02-2FC-615 - Room J6.23 - Air Fow Control (Slave VAV-616, VAV-617, VAV-618)
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TC-604, Point Description: J460-02-2TC-604 - Room J6.24 - Lab Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-612, Point Description: J460-02-2FCV-612 - Room J6.24 - Reheater Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-613, Point Description: J460-02-2FCV-613 - Room J6.24 - J460-02-1ACU-606 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-619, Point Description: J460-02-2FC-619 - Room J6.24 - Air Fow Control (Slave VAV-620)
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TC-611, Point Description: J460-02-2TC-611 - Room J6.24 - Lab Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-614, Point Description: J460-02-2FCV-614 - Room J6.24 - Reheater Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-615, Point Description: J460-02-2FCV-615 - Room J6.24 - J460-02-1ACU-607 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-621, Point Description: J460-02-2FC-621 - Room J6.24 - Air Fow Control (Slave VAV-622)
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-616, Point Description: J460-02-2FCV-616 - Room J6.20 - Reheater Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-623, Point Description: J460-02-2FC-623 - Room J6.20 - Air Fow Control (Slave VAV-624, VAV-625)
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TC-612, Point Description: J460-02-2TC-612 - Room J6.20 - Lab Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-617, Point Description: J460-02-2FCV-617 - Room J6.20 - Reheater Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-618, Point Description: J460-02-2FCV-618 - Room J6.20 - J460-02-1ACU-609 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-626, Point Description: J460-02-2FC-626 - Room J6.20 - Air Fow Control (Slave VAV-627, VAV-628, VAV-629)
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TC-605, Point Description: J460-02-2TC-605 - Room J6.17 - Lab Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-619, Point Description: J460-02-2FCV-619 - Room J6.17 - Reheater Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-630, Point Description: J460-02-2FC-630 - Room J6.17 - Air Fow Control (Slave VAV-631, VAV-632)
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TC-613, Point Description: J460-02-2TC-613 - Room J6.17 - Lab Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-620, Point Description: J460-02-2FCV-620 - Room J6.17 - Reheater Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-633, Point Description: J460-02-2FC-633 - Room J6.17 - Air Fow Control (Slave VAV-634, VAV-635)
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TC-614, Point Description: J460-02-2TC-614 - Room J6.17 - Lab Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-621, Point Description: J460-02-2FCV-621 - Room J6.17 - Reheater Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-636, Point Description: J460-02-2FC-636 - Room J6.17 - Air Fow Control (Slave VAV-637, VAV-638)
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TC-606, Point Description: J460-02-2TC-606 - Room J6.14 - Lab Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-622, Point Description: J460-02-2FCV-622 - Room J6.14 - Reheater Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-639, Point Description: J460-02-2FC-639 - Room J6.14 - Air Fow Control (Slave VAV-640, VAV-641)
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TC-615, Point Description: J460-02-2TC-615 - Room J6.14 - Lab Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-623, Point Description: J460-02-2FCV-623 - Room J6.14 - Reheater Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-642, Point Description: J460-02-2FC-642 - Room J6.14 - Air Fow Control (Slave VAV-643, VAV-664)
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TC-001, Point Description: J460-01-2TC-001 - Room J0.07 - Room Controller
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-002, Point Description: J460-01-2FCV-002 - Room J0.07 - J460-01-1ACU-001 Heating Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-003, Point Description: J460-01-2FCV-003 - Room J0.07 - J460-01-1ACU-002 Heating Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-004, Point Description: J460-01-2FCV-004 - Room J0.07 - J460-01-1ACU-003 Heating Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-005, Point Description: J460-01-2FCV-005 - Room J0.07 - J460-01-1ACU-004 Heating Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-006, Point Description: J460-01-2FCV-006 - Room J0.07 - J460-01-1ACU-001 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-007, Point Description: J460-01-2FCV-007 - Room J0.07 - J460-01-1ACU-002 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-008, Point Description: J460-01-2FCV-008 - Room J0.07 - J460-01-1ACU-003 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-009, Point Description: J460-01-2FCV-009 - Room J0.07 - J460-01-1ACU-004 Cooling Valve Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-001, Point Description: J460-01-2FC-001 - Room J0.07 - Return Air Flow Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-002, Point Description: J460-01-2FC-002 - Room J0.07 - Supply Air Flow Control
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: , Point Description: 
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: , Point Description: 
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: , Point Description: 
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: , Point Description: 
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: , Point Description: 
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Row processed - Device Tag: , Point Description: 
+2025-02-14 13:14:46 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - File processed successfully: Processed_J270-06 BMS 6th Floor Room control Instrument List J-Building_YOKO_02Dec2024.xlsx
+2025-02-14 13:16:18 [main] INFO  com.ontlogieai.Main - Application starting...
+2025-02-14 13:16:18 [main] INFO  com.ontlogieai.Main - Look and feel set successfully.
+2025-02-14 13:16:19 [main] INFO  com.ontlogieai.Main - Application started successfully.
+2025-02-14 13:16:28 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Processing file: J270-06 BMS 6th Floor Room control Instrument List J-Building_YOKO_02Dec2024.xlsx
+2025-02-14 13:16:28 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - Reading Excel file: J270-06 BMS 6th Floor Room control Instrument List J-Building_YOKO_02Dec2024.xlsx
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: , Point Description: 
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: Device Tag, Point Description: Point Descriptor
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J270-06-2XA-001, Point Description: J270-06-2XA-001 - J270-06-1PNL-001 - 230VAC Thermal Fault Signal
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J270-06-2XA-002, Point Description: J270-06-2XA-002 - J270-06-1PNL-001 - 24VDC Thermal Fault Signal
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J270-06-2XA-004, Point Description: J270-06-2XA-004 - J270-06-1PNL-001 - Surge Voltage Arrester Signal
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J270-06-2XA-005, Point Description: J270-06-2XA-005 - J270-06-1PNL-001 - Common Fire Alarm
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TT-612, Point Description: J460-01-2TT-612 - Chilled Water - Supply Temperature
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TT-613, Point Description: J460-01-2TT-613 - Chilled Water - Return Temperature
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-643, Point Description: J460-01-2FCV-643 - Chilled Water Valve - Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1PMP-601, Point Description: J460-01-1PMP-601 - Chilled water Circulation pump - Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1PMP-601, Point Description: J460-01-2XA-601 - Chilled water Circulation pump J460-01-1PMP-601 - Alarm
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1PMP-601, Point Description: J460-01-2SS-601 - Chilled water Circulation pump J460-01-1PMP-601 - Status
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1PMP-601, Point Description: J460-01-2SC-601 - Chilled water Circulation pump J460-01-1PMP-601 - Control Signal
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1PMP-601, Point Description: J460-01-2XS-601 - Chilled water Circulation pump J460-01-1PMP-601 - Enable
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1PMP-601, Point Description: J460-01-2HSI-601 - Chilled water Circulation pump J460-01-1PMP-601 - Maintanance Switch
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FT-601, Point Description: J460-01-2FT-601 - Chilled Water - Energy Meter
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FT-602, Point Description: J460-01-2FT-602 - Hot Water - Energy Meter
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FT-604, Point Description: J460-01-2FT-604 - 61LBK3 - Return Air Flow
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TT-616, Point Description: J460-01-2TT-616 - 61LBK3 - Return Air Temperature
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FT-603, Point Description: J460-01-2FT-603 - 61LBK3 - Supply Air Flow
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TT-614, Point Description: J460-01-2TT-614 - 61LBK3 - Supply Air Temperature
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2MT-614, Point Description: J460-01-2MT-614 - 61LBK3 - Supply Air Humidity
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J100-06-2TT-001, Point Description: J100-06-2TT-001 - Potable Water - Temperature
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J100-06-2FT-001, Point Description: J100-06-2FT-001 - Potable Water - Flow
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J100-06-2TT-002, Point Description: J100-06-2TT-002 - Potable  Hot Water - Inlet Temperature Heater
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J100-06-2XCV-001, Point Description: J100-06-2XCV-001 - Legionella Dump Valve
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J130-06-2TT-001, Point Description: J130-06-2TT-001 - Non Potable Water - Temperature
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J130-06-2PT-001, Point Description: J130-06-2PT-001 - Non Potable Water - Pressure
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J130-06-2FT-001, Point Description: J130-06-2FT-001 - Non Potable Water - Flow
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J305-06-2FT-001, Point Description: J305-06-2FT-001 - Compressed Air - Flow Meter
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J305-06-2PT-001, Point Description: J305-06-2PT-001 - Compressed Air - Pressure
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J305-06-2MT-001, Point Description: J305-06-2MT-001 - Compressed Air - Dewpoint
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J320-06-2FT-001, Point Description: J320-06-2FT-001 - Carbon Dioxide Gas - Flow Meter
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J320-06-2PT-001, Point Description: J320-06-2PT-001 - Carbon Dioxide Gas - Pressure
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J330-06-2FT-001, Point Description: J330-06-2FT-001 - Nitrogen Gas - Flow Meter
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J330-06-2PT-001, Point Description: J330-06-2PT-001 - Nitrogen Gas - Pressure
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J229-06-1QIT-001, Point Description: J229-06-1QIT-001 - SVK-6H - Energy Meter
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J229-06-1QIT-002, Point Description: J229-06-1QIT-002 - VK-6H-1 - Energy Meter
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J229-06-1QIT-003, Point Description: J229-06-1QIT-003 - VK-6H-2 - Energy Meter
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J229-06-1QIT-004, Point Description: J229-06-1QIT-004 - VK-6H-3 - Energy Meter
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J229-06-1QIT-005, Point Description: J229-06-1QIT-005 - VK-6H-4 - Energy Meter
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J232-06-1UPS-001, Point Description: J232-06-1UPS-001 - Parameters UPS MDF room 6th floor
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J229-06-2XA-101, Point Description: J229-06-2XA-101 - SVK-6H - Circuit Breaker Tripped
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J229-06-2XA-102, Point Description: J229-06-2XA-102 - SVK-6H - Voltage Surge Arrestor
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J229-06-2XA-103, Point Description: J229-06-2XA-103 - VK-6H-1 - Circuit Breaker Tripped
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J229-06-2XA-104, Point Description: J229-06-2XA-104 - VK-6H-1 - Voltage Surge Arrestor
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J229-06-2XA-105, Point Description: J229-06-2XA-105 - VK-6H-2 - Circuit Breaker Tripped
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J229-06-2XA-106, Point Description: J229-06-2XA-106 - VK-6H-2 - Voltage Surge Arrestor
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J229-06-2XA-107, Point Description: J229-06-2XA-107 - VK-6H-3 - Circuit Breaker Tripped
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J229-06-2XA-108, Point Description: J229-06-2XA-108 - VK-6H-3 - Voltage Surge Arrestor
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J229-06-2XA-109, Point Description: J229-06-2XA-109 - VK-6H-4 - Circuit Breaker Tripped
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J229-06-2XA-110, Point Description: J229-06-2XA-110 - VK-6H-4 - Voltage Surge Arrestor
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J229-06-2XA-111, Point Description: J229-06-2XA-111 - VK-UPS-6H-5 - Circuit Breaker Tripped
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J229-06-2XA-112, Point Description: J229-06-2XA-112 - VK-UPS-6H-5 - Voltage Surge Arrestor
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FT-602, Point Description: J460-02-2FT-602 - 61LBK2 - Return Air Flow
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TT-608, Point Description: J460-02-2TT-608 - 61LBK2 - Return Air Temperature
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FT-601, Point Description: J460-02-2FT-601 - 61LBK2 - Supply Air Flow
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TT-607, Point Description: J460-02-2TT-607 - 61LBK2 - Supply Air Temperature
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2MT-607, Point Description: J460-02-2MT-607 - 61LBK2 - Supply Air Humidity
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2KS-603, Point Description: J460-02-2KS-603 - Labs Day Extention Timer - Timer
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2XI-603, Point Description: J460-02-2XI-603 - Labs Day Extention Timer - Indicator
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2XS-603, Point Description: J460-02-2XS-603 - Labs Day Extention Timer - Enable
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TT-003, Point Description: J460-01-2TT-003 - Chilled Water - Return Temperature
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TT-002, Point Description: J460-01-2TT-002 - Chilled Water - Supply Temperature
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-001, Point Description: J460-01-2FCV-001 - Chilled Water Valve - Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1PMP-001, Point Description: J460-01-1PMP-001 - Chilled water Circulation pump - Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1PMP-001, Point Description: J460-01-2XA-001 - Chilled water Circulation pump J460-01-1PMP-001 - Alarm
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1PMP-001, Point Description: J460-01-2SS-001 - Chilled water Circulation pump J460-01-1PMP-001 - Status
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1PMP-001, Point Description: J460-01-2SC-001 - Chilled water Circulation pump J460-01-1PMP-001 - Control Signal
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1PMP-001, Point Description: J460-01-2XS-001 - Chilled water Circulation pump J460-01-1PMP-001 - Enable
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1PMP-001, Point Description: J460-01-2HSI-001 - Chilled water Circulation pump J460-01-1PMP-001 - Maintanance Switch
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J140-06-2FT-002, Point Description: J140-06-2FT-002 - Demi Water - Return Flow
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J140-06-2FT-001, Point Description: J140-06-2FT-001 - Demi Water - Supply Flow
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J140-06-2PT-001, Point Description: J140-06-2PT-001 - Demi Water - Inlet Pressure
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J140-06-2PT-002, Point Description: J140-06-2PT-002 - Demi Water - Outlet Pressure
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J140-06-2PT-003, Point Description: J140-06-2PT-003 - Demi Water - Return Pressure
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TT-617, Point Description: J460-02-2TT-617 - Chilled Water - Return Temperature
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TT-616, Point Description: J460-02-2TT-616 - Chilled Water - Supply Temperature
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-624, Point Description: J460-02-2FCV-624 - Chilled Water Valve - Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-1PMP-601, Point Description: J460-02-1PMP-601 - Chilled water Circulation pump - Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-1PMP-601, Point Description: J460-02-2XA-601 - Chilled water Circulation pump J460-02-1PMP-601 - Alarm
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-1PMP-601, Point Description: J460-02-2SS-601 - Chilled water Circulation pump J460-02-1PMP-601 - Status
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-1PMP-601, Point Description: J460-02-2SC-601 - Chilled water Circulation pump J460-02-1PMP-601 - Control Signal
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-1PMP-601, Point Description: J460-02-2XS-601 - Chilled water Circulation pump J460-02-1PMP-601 - Enable
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-1PMP-601, Point Description: J460-02-2HSI-601 - Chilled water Circulation pump J460-02-1PMP-601 - Maintanance Switch
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2PT-902, Point Description: J460-02-2PT-902 - Exhaust Duct J460-02-2B-902- Pressure
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2B-902, Point Description: J460-02-2XC-902 - Exhaust Fan J460-02-2B-902 - Control Signal
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2B-902, Point Description: J460-02-2XA-902 - Exhaust Fan J460-02-2B-902 - Alarm
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2B-902, Point Description: J460-02-2HSI-902 - Exhaust Fan J460-02-2B-902- Maintanace Switch
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TC-601, Point Description: J460-01-2TC-601 - Room J6.02 - Room Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-601, Point Description: J460-01-2FCV-601 - Room J6.02 - Reheater Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TC-602, Point Description: J460-01-2TC-602 - Room J6.03 - Room Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-602, Point Description: J460-01-2FCV-602 - Room J6.03 - Reheater Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TC-603, Point Description: J460-01-2TC-603 - Room J6.06 - Room Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-603, Point Description: J460-01-2FCV-603 - Room J6.06 - J460-01-1ACU-601 Heating Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-604, Point Description: J460-01-2FCV-604 - Room J6.06 - J460-01-1ACU-602 Heating Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-605, Point Description: J460-01-2FCV-605 - Room J6.06 - J460-01-1ACU-603 Heating Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-606, Point Description: J460-01-2FCV-606 - Room J6.06 - J460-01-1ACU-604 Heating Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-607, Point Description: J460-01-2FCV-607 - Room J6.06 - J460-01-1ACU-601 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-608, Point Description: J460-01-2FCV-608 - Room J6.06 - J460-01-1ACU-602 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-609, Point Description: J460-01-2FCV-609 - Room J6.06 - J460-01-1ACU-603 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-610, Point Description: J460-01-2FCV-610 - Room J6.06 - J460-01-1ACU-604 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-601, Point Description: J460-01-2FC-601 - Room J6.06 - Return Air Flow Control.
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-602, Point Description: J460-01-2FC-602 - Room J6.06 - Return Air Flow Control.
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-603, Point Description: J460-01-2FC-603 - Room J6.06 - Supply Air Flow Control.
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-604, Point Description: J460-01-2FC-604 - Room J6.06 - Return Air Flow Control.
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TC-612, Point Description: J460-01-2TC-612 - Room J6.04 - MDF Room Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1ACU-618, Point Description: J460-01-1ACU-618 - Room J6.04 - Fan Coil unit Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1ACU-619, Point Description: J460-01-1ACU-619 - Room J6.04 - Fan Coil unit Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TC-604, Point Description: J460-01-2TC-604 - Room J6.07 - Room Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-611, Point Description: J460-01-2FCV-611 - Room J6.07 - Reheater Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-605, Point Description: J460-01-2FC-605 - Room J6.07 - Supply Air Fow Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-606, Point Description: J460-01-2FC-606 - Room J6.07 - Return Air Flow Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-612, Point Description: J460-01-2FCV-612 - Room J6.06 - J460-01-1ACU-605 Heating Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-613, Point Description: J460-01-2FCV-613 - Room J6.06 - J460-01-1ACU-606 Heating Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-614, Point Description: J460-01-2FCV-614 - Room J6.06 - J460-01-1ACU-607 Heating Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-615, Point Description: J460-01-2FCV-615 - Room J6.06 - J460-01-1ACU-608 Heating Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-616, Point Description: J460-01-2FCV-616 - Room J6.06 - J460-01-1ACU-605 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-617, Point Description: J460-01-2FCV-617 - Room J6.06 - J460-01-1ACU-606 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-618, Point Description: J460-01-2FCV-618 - Room J6.06 - J460-01-1ACU-607 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-619, Point Description: J460-01-2FCV-619 - Room J6.06 - J460-01-1ACU-608 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-607, Point Description: J460-01-2FC-607 - Room J6.06 - Return Air Flow Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-608, Point Description: J460-01-2FC-608 - Room J6.06 - Supply Air Fow Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TC-605, Point Description: J460-01-2TC-605 - Room J6.05 - Room Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-620, Point Description: J460-01-2FCV-620 - Room J6.05 - Reheater Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-610, Point Description: J460-01-2FC-610 - Room J6.05 - Return Air Flow Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-609, Point Description: J460-01-2FC-609 - Room J6.05 - Supply Air Fow Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-621, Point Description: J460-01-2FCV-621 - Room J6.06 - J460-01-1ACU-609 Heating Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-622, Point Description: J460-01-2FCV-622 - Room J6.06 - J460-01-1ACU-609 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-611, Point Description: J460-01-2FC-611 - Room J6.06 - Supply Air Fow Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TC-606, Point Description: J460-01-2TC-606 - Room J6.08 - Room Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-623, Point Description: J460-01-2FCV-623 - Room J6.08 - Reheater Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TC-607, Point Description: J460-01-2TC-607 - Room J6.09 - Room Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-624, Point Description: J460-01-2FCV-624 - Room J6.09 - J460-01-1ACU-610 Heating Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-625, Point Description: J460-01-2FCV-625 - Room J6.09 - J460-01-1ACU-611 Heating Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-626, Point Description: J460-01-2FCV-626 - Room J6.09 - J460-01-1ACU-612 Heating Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-627, Point Description: J460-01-2FCV-627 - Room J6.09 - J460-01-1ACU-613 Heating Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-628, Point Description: J460-01-2FCV-628 - Room J6.09 - J460-01-1ACU-610 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-629, Point Description: J460-01-2FCV-629 - Room J6.09 - J460-01-1ACU-611 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-630, Point Description: J460-01-2FCV-630 - Room J6.09 - J460-01-1ACU-612 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-631, Point Description: J460-01-2FCV-631 - Room J6.09 - J460-01-1ACU-613 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-612, Point Description: J460-01-2FC-612 - Room J6.09 - Return Air Flow Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-613, Point Description: J460-01-2FC-613 - Room J6.09 - Supply Air Fow Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TC-608, Point Description: J460-01-2TC-608 - Room J6.10 - Room Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-632, Point Description: J460-01-2FCV-632 - Room J6.10 - Reheater Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TC-609, Point Description: J460-01-2TC-609 - Room J6.11 - Room Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-633, Point Description: J460-01-2FCV-633 - Room J6.11 - J460-01-1ACU-614 Heating Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-634, Point Description: J460-01-2FCV-634 - Room J6.11 - J460-01-1ACU-615 Heating Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-635, Point Description: J460-01-2FCV-635 - Room J6.11 - J460-01-1ACU-616 Heating Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-636, Point Description: J460-01-2FCV-636 - Room J6.11 - J460-01-1ACU-617 Heating Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-637, Point Description: J460-01-2FCV-637 - Room J6.11 - J460-01-1ACU-614 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-638, Point Description: J460-01-2FCV-638 - Room J6.11 - J460-01-1ACU-615 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-639, Point Description: J460-01-2FCV-639 - Room J6.11 - J460-01-1ACU-616 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-640, Point Description: J460-01-2FCV-640 - Room J6.11 - J460-01-1ACU-617 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-614, Point Description: J460-01-2FC-614 - Room J6.11 - Return Air Flow Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-615, Point Description: J460-01-2FC-615 - Room J6.11 - Supply Air Fow Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TC-610, Point Description: J460-01-2TC-610 - Room J6.13 - Room Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-641, Point Description: J460-01-2FCV-641 - Room J6.13 - Reheater Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-616, Point Description: J460-01-2FC-616 - Room J6.13 - Supply Air Fow Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-617, Point Description: J460-01-2FC-617 - Room J6.13 - Return Air Flow Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TC-611, Point Description: J460-01-2TC-611 - Room J6.12 - Room Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-642, Point Description: J460-01-2FCV-642 - Room J6.12 - Reheater Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TC-601, Point Description: J460-02-2TC-601 - Room J6.20 - Lab Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-601, Point Description: J460-02-2FCV-601 - Room J6.20 - Reheater Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-602, Point Description: J460-02-2FCV-602 - Room J6.20 - J460-02-1ACU-602 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-601, Point Description: J460-02-2FC-601 - Room J6.20 - Air Fow Control (Slave VAV-602, VAV-603, VAV-604)
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TC-602, Point Description: J460-02-2TC-602 - Room J6.22 - Lab Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-603, Point Description: J460-02-2FCV-603 - Room J6.22 - J460-02-1ACU-601 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-604, Point Description: J460-02-2FCV-604 - Room J6.22 - J460-02-1ACU-601 Heating Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-605, Point Description: J460-02-2FC-605 - Room J6.22 - Air Fow Control (Slave VAV-644, VAV-606)
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-606, Point Description: J460-02-2XU-606 - Room J6.22 - Fume hood.
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TC-603, Point Description: J460-02-2TC-603 - Room J6.23 - Lab Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-605, Point Description: J460-02-2FCV-605 - Room J6.23 - Reheater Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-607, Point Description: J460-02-2FC-607 - Room J6.23 - Air Fow Control (Slave VAV-608)
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-606, Point Description: J460-02-2FCV-606 - Room J6.23 - Reheater Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-607, Point Description: J460-02-2FCV-607 - Room J6.23 - J460-02-1ACU-603 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-609, Point Description: J460-02-2FC-609 - Room J6.23 - Air Fow Control (Slave VAV-610, VAV-611)
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TC-609, Point Description: J460-02-2TC-609 - Room J6.23 - Lab Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-608, Point Description: J460-02-2FCV-608 - Room J6.23 - Reheater Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-609, Point Description: J460-02-2FCV-609 - Room J6.23 - J460-02-1ACU-604 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-612, Point Description: J460-02-2FC-612 - Room J6.23 - Air Fow Control (Slave VAV-613, VAV-614)
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TC-610, Point Description: J460-02-2TC-610 - Room J6.23 - Lab Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-610, Point Description: J460-02-2FCV-610 - Room J6.23 - Reheater Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-611, Point Description: J460-02-2FCV-611 - Room J6.23 - J460-02-1ACU-605 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-615, Point Description: J460-02-2FC-615 - Room J6.23 - Air Fow Control (Slave VAV-616, VAV-617, VAV-618)
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TC-604, Point Description: J460-02-2TC-604 - Room J6.24 - Lab Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-612, Point Description: J460-02-2FCV-612 - Room J6.24 - Reheater Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-613, Point Description: J460-02-2FCV-613 - Room J6.24 - J460-02-1ACU-606 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-619, Point Description: J460-02-2FC-619 - Room J6.24 - Air Fow Control (Slave VAV-620)
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TC-611, Point Description: J460-02-2TC-611 - Room J6.24 - Lab Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-614, Point Description: J460-02-2FCV-614 - Room J6.24 - Reheater Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-615, Point Description: J460-02-2FCV-615 - Room J6.24 - J460-02-1ACU-607 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-621, Point Description: J460-02-2FC-621 - Room J6.24 - Air Fow Control (Slave VAV-622)
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-616, Point Description: J460-02-2FCV-616 - Room J6.20 - Reheater Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-623, Point Description: J460-02-2FC-623 - Room J6.20 - Air Fow Control (Slave VAV-624, VAV-625)
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TC-612, Point Description: J460-02-2TC-612 - Room J6.20 - Lab Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-617, Point Description: J460-02-2FCV-617 - Room J6.20 - Reheater Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-618, Point Description: J460-02-2FCV-618 - Room J6.20 - J460-02-1ACU-609 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-626, Point Description: J460-02-2FC-626 - Room J6.20 - Air Fow Control (Slave VAV-627, VAV-628, VAV-629)
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TC-605, Point Description: J460-02-2TC-605 - Room J6.17 - Lab Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-619, Point Description: J460-02-2FCV-619 - Room J6.17 - Reheater Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-630, Point Description: J460-02-2FC-630 - Room J6.17 - Air Fow Control (Slave VAV-631, VAV-632)
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TC-613, Point Description: J460-02-2TC-613 - Room J6.17 - Lab Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-620, Point Description: J460-02-2FCV-620 - Room J6.17 - Reheater Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-633, Point Description: J460-02-2FC-633 - Room J6.17 - Air Fow Control (Slave VAV-634, VAV-635)
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TC-614, Point Description: J460-02-2TC-614 - Room J6.17 - Lab Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-621, Point Description: J460-02-2FCV-621 - Room J6.17 - Reheater Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-636, Point Description: J460-02-2FC-636 - Room J6.17 - Air Fow Control (Slave VAV-637, VAV-638)
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TC-606, Point Description: J460-02-2TC-606 - Room J6.14 - Lab Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-622, Point Description: J460-02-2FCV-622 - Room J6.14 - Reheater Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-639, Point Description: J460-02-2FC-639 - Room J6.14 - Air Fow Control (Slave VAV-640, VAV-641)
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2TC-615, Point Description: J460-02-2TC-615 - Room J6.14 - Lab Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-2FCV-623, Point Description: J460-02-2FCV-623 - Room J6.14 - Reheater Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-02-1VAV-642, Point Description: J460-02-2FC-642 - Room J6.14 - Air Fow Control (Slave VAV-643, VAV-664)
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2TC-001, Point Description: J460-01-2TC-001 - Room J0.07 - Room Controller
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-002, Point Description: J460-01-2FCV-002 - Room J0.07 - J460-01-1ACU-001 Heating Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-003, Point Description: J460-01-2FCV-003 - Room J0.07 - J460-01-1ACU-002 Heating Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-004, Point Description: J460-01-2FCV-004 - Room J0.07 - J460-01-1ACU-003 Heating Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-005, Point Description: J460-01-2FCV-005 - Room J0.07 - J460-01-1ACU-004 Heating Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-006, Point Description: J460-01-2FCV-006 - Room J0.07 - J460-01-1ACU-001 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-007, Point Description: J460-01-2FCV-007 - Room J0.07 - J460-01-1ACU-002 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-008, Point Description: J460-01-2FCV-008 - Room J0.07 - J460-01-1ACU-003 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-2FCV-009, Point Description: J460-01-2FCV-009 - Room J0.07 - J460-01-1ACU-004 Cooling Valve Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-001, Point Description: J460-01-2FC-001 - Room J0.07 - Return Air Flow Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: J460-01-1VAV-002, Point Description: J460-01-2FC-002 - Room J0.07 - Supply Air Flow Control
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: , Point Description: 
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: , Point Description: 
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: , Point Description: 
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: , Point Description: 
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: , Point Description: 
+2025-02-14 13:16:30 [AWT-EventQueue-0] DEBUG com.ontlogieai.Main - Row processed - Device Tag: , Point Description: 
+2025-02-14 13:16:30 [AWT-EventQueue-0] INFO  com.ontlogieai.Main - File processed successfully: Processed_J270-06 BMS 6th Floor Room control Instrument List J-Building_YOKO_02Dec2024.xlsx
