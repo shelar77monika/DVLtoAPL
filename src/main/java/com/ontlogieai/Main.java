@@ -168,7 +168,8 @@ public class Main {
                 throw new IOException("Reference Excel file not found in resources.");
             }
 
-            try (Workbook refWorkbook = new XSSFWorkbook(refFis)) {
+            Workbook refWorkbook = new XSSFWorkbook(refFis);
+            try {
                 for (Sheet refSheet : refWorkbook) {
                     if (!"J270-06".equalsIgnoreCase(refSheet.getSheetName())) {
                         Sheet newSheet = newWorkbook.createSheet(refSheet.getSheetName());
@@ -189,29 +190,93 @@ public class Main {
 
                 String deviceTag = getDeviceTag(row, 3);
                 String pointDescription = getPointDescription(row, 4);
-                logger.debug("Row processed - Device Tag: {}, Point Description: {}", deviceTag, pointDescription);
-
                 String standardDeviceTag = getStandardDeviceTagSpecificToDeviceTag(deviceTag, pointDescription);
-                copyRelatedRowsFromRefAlarmAndParameterListSheet(newWorkbook, refFis, standardDeviceTag);
+                logger.debug("Row processed - Device Tag: {}, Point Description: {}, standardDeviceTag: {}", deviceTag, pointDescription, standardDeviceTag);
 
+
+                if(null != standardDeviceTag){
+                    copyRelatedRowsFromRefAlarmAndParameterListSheet(newWorkbook, refWorkbook, standardDeviceTag);
+                }
             }
             newWorkbook.write(fos);
+            refWorkbook.close();
+            refFis.close();
         }
     }
 
-    private static void copyRelatedRowsFromRefAlarmAndParameterListSheet(Workbook newWorkbook, InputStream refFis, String standardDeviceTag) {
+    private static void copyRelatedRowsFromRefAlarmAndParameterListSheet(Workbook newWorkbook, Workbook refWorkbook, String standardDeviceTag) {
 
-        try (Workbook refWorkbook = new XSSFWorkbook(refFis)) {
-            Sheet newSheet = newWorkbook.createSheet("J270-06-demo");
+        try {
+            Sheet newSheet =  newWorkbook.getSheet("J270-06-demo");
+            if(null == newSheet)
+                newSheet = newWorkbook.createSheet("J270-06-demo");
+            addHeaderRow(newSheet);
             copyRows(refWorkbook, newSheet, standardDeviceTag);
         } catch (Exception e) {
             logger.error("Error processing reference workbook", e);
         }
     }
 
+    private static void addHeaderRow(Sheet sheet) {
+        Row headerRow = sheet.createRow(0); // Create the first row (header row)
+
+        String[] headers = {"Rev Nr","Nr","Outstation",	"Device Tag","Function","Point Description","EBI Tag","JACE Tag","Range (Low) / State 0","Range (High) / State 1","State 2","State 3","State 4","State 5","State 6","State 7","State 8","State 9","State 16","State 32","State 64","State 128","State 8192","State 16384","State 32768","Delay Timer (Sec)","Hysteresis	Control Level","Electronic Signature Type","Unit","Setting	Controller Alarm Tag","	Alarm Type","Reset","Remarks"
+        };
+
+        // Create header style
+        CellStyle headerStyle = sheet.getWorkbook().createCellStyle();
+        org. apache. poi. ss. usermodel.Font headerFont = sheet.getWorkbook().createFont();
+        headerFont.setBold(true);
+        headerStyle.setFont(headerFont);
+
+        // Add headers to the first row
+        for (int i = 0; i < headers.length; i++) {
+            Cell cell = headerRow.createCell(i);
+            cell.setCellValue(headers[i]);
+            cell.setCellStyle(headerStyle);
+            sheet.autoSizeColumn(i); // Adjust column width automatically
+        }
+    }
+
+
+
+
     private static void copyRows(Workbook refWorkbook, Sheet newSheet, String standardDeviceTag) {
         List<Row> matchedRows = getDeviceIdRows(standardDeviceTag,refWorkbook);
+        // Get the last row number in newSheet to start appending
+        int newRowNum = newSheet.getLastRowNum() + 1;
 
+        for (Row sourceRow : matchedRows) {
+            Row newRow = newSheet.createRow(newRowNum++); // Create new row in newSheet
+
+            // Copy each cell from sourceRow to newRow
+            for (Cell sourceCell : sourceRow) {
+                Cell newCell = newRow.createCell(sourceCell.getColumnIndex());
+
+                // Copy cell value
+                switch (sourceCell.getCellType()) {
+                    case STRING:
+                        newCell.setCellValue(sourceCell.getStringCellValue());
+                        break;
+                    case NUMERIC:
+                        newCell.setCellValue(sourceCell.getNumericCellValue());
+                        break;
+                    case BOOLEAN:
+                        newCell.setCellValue(sourceCell.getBooleanCellValue());
+                        break;
+                    case FORMULA:
+                        newCell.setCellFormula(sourceCell.getCellFormula());
+                        break;
+                    case BLANK:
+                        newCell.setCellType(CellType.BLANK);
+                        break;
+                    default:
+                        break;
+                }
+                // Copy cell style
+               // newCell.setCellStyle(sourceCell.getCellStyle());
+            }
+        }
     }
 
 
@@ -225,6 +290,21 @@ public class Main {
         }
         if (deviceTag.contains("Potable  Hot Water")){
             return "Potable  Hot Water";
+        }
+        if (deviceTag.contains("Non Potable Water")){
+            return "Non Potable Water";
+        }
+        if (deviceTag.contains("Chilled Water - Supply Temperature")){
+            return "Chilled Water - Supply Temperature";
+        }
+        if (deviceTag.contains("Chilled Water - Return Temperature")){
+            return "Chilled Water - Return Temperature";
+        }
+        if (deviceTag.contains("Supply Air")){
+            return "Supply Air";
+        }
+        if (deviceTag.contains("Return Air")){
+            return "Return Air";
         }
         return "";
     }
@@ -248,7 +328,7 @@ public class Main {
 
         String keyPrifix = getDeviceType(deviceTag);
         String deviceKeyPostfix = getDeviceKey(pointDescription);
-        String deviceKey = keyPrifix + deviceKeyPostfix;
+        String deviceKey = keyPrifix +"-"+ deviceKeyPostfix;
 
         Map<String, String> standardDeviceTag = new HashMap<>();
         //TT
@@ -347,7 +427,7 @@ public class Main {
 
                 if (deviceTagCell != null && deviceTagCell.getCellType() == CellType.STRING) {
                     String deviceTagValue = deviceTagCell.getStringCellValue();
-                    if (deviceTagValue.contains(deviceCode)) {
+                    if (null != deviceTagValue && deviceTagValue.contains(deviceCode)) {
                         matchingRows.add(row);
                     }
                 }
