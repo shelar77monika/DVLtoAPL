@@ -27,10 +27,10 @@
         </dependency>
 
         <dependency>
-                <groupId>org.apache.xmlbeans</groupId>
-                <artifactId>xmlbeans</artifactId>
-                <version>5.1.1</version> <!-- Ensure the correct version of XMLBeans is included -->
-            </dependency>
+            <groupId>org.apache.xmlbeans</groupId>
+            <artifactId>xmlbeans</artifactId>
+            <version>5.1.1</version> <!-- Ensure the correct version of XMLBeans is included -->
+        </dependency>
 
         <dependency>
             <groupId>ch.qos.logback</groupId>

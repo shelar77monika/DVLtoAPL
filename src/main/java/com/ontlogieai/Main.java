@@ -155,65 +155,82 @@ public class Main {
             return "Failed to process file: " + e.getMessage();
         }
     }
-
     private static void readAndWriteExcelFile(File inputFile, File outputFile) throws IOException {
         logger.info("Reading Excel file: {}", inputFile.getName());
-        try (FileInputStream fis = new FileInputStream(inputFile);
-             Workbook workbook = inputFile.getName().endsWith(".xlsx") ? new XSSFWorkbook(fis) : new HSSFWorkbook(fis);
-             FileOutputStream fos = new FileOutputStream(outputFile)) {
 
-            Workbook newWorkbook = new XSSFWorkbook();
-            InputStream refFis = Main.class.getClassLoader().getResourceAsStream("J270-06-Alarm-And-Parameter-list.xlsx");
-            if (refFis == null) {
-                throw new IOException("Reference Excel file not found in resources.");
-            }
+        try (Workbook workbook = WorkbookFactory.createWorkbook(inputFile);
+             Workbook newWorkbook = new XSSFWorkbook();
+             FileOutputStream fos = new FileOutputStream(outputFile);
+             InputStream refFis = getReferenceFileStream();
+             Workbook refWorkbook = new XSSFWorkbook(refFis)) {
 
-            Workbook refWorkbook = new XSSFWorkbook(refFis);
-            try {
-                for (Sheet refSheet : refWorkbook) {
-                    if (!"J270-06".equalsIgnoreCase(refSheet.getSheetName())) {
-                        Sheet newSheet = newWorkbook.createSheet(refSheet.getSheetName());
-                        copySheet(refSheet, newSheet);
-                    }
-                }
-            } catch (Exception e) {
-                logger.error("Error processing reference workbook", e);
-            }
-
-            Sheet sheet = workbook.getSheet("Floormanager");
-            if (sheet == null) {
-                logger.warn("Sheet 'Floormanager' not found.");
-                return;
-            }
-
-            Sheet newSheet =  newWorkbook.getSheet("J270-06-demo");
-            if(null == newSheet)
-                newSheet = newWorkbook.createSheet("J270-06-demo");
-
-            addHeaderRow(newSheet);
-
-            for (Row row : sheet) {
-
-                String deviceTag = getDeviceTag(row, 3);
-                String pointDescription = getPointDescription(row, 4);
-                String standardDeviceTag = getStandardDeviceTagSpecificToDeviceTag(deviceTag, pointDescription);
-                logger.debug("Row processed - Device Tag: {}, Point Description: {}, standardDeviceTag: {}", deviceTag, pointDescription, standardDeviceTag);
-
-
-                if(null != standardDeviceTag){
-                    copyRelatedRowsFromRefAlarmAndParameterListSheet(newSheet, refWorkbook, standardDeviceTag);
-                }
-            }
+            copyReferenceSheets(refWorkbook, newWorkbook);
+            processFloormanagerSheet(workbook, newWorkbook, refWorkbook);
             newWorkbook.write(fos);
-            refWorkbook.close();
-            refFis.close();
+
+        } catch (Exception e) {
+            logger.error("Error processing Excel file", e);
+            throw e;
         }
     }
 
-    private static void copyRelatedRowsFromRefAlarmAndParameterListSheet(Sheet newSheet, Workbook refWorkbook, String standardDeviceTag) {
+    private static InputStream getReferenceFileStream() throws IOException {
+        InputStream refFis = Main.class.getClassLoader().getResourceAsStream("J270-06-Alarm-And-Parameter-list.xlsx");
+        if (refFis == null) {
+            throw new IOException("Reference Excel file not found in resources.");
+        }
+        return refFis;
+    }
+
+    private static void copyReferenceSheets(Workbook refWorkbook, Workbook newWorkbook) {
+        for (Sheet refSheet : refWorkbook) {
+            if (!"J270-06".equalsIgnoreCase(refSheet.getSheetName())) {
+                Sheet newSheet = newWorkbook.createSheet(refSheet.getSheetName());
+                copySheet(refSheet, newSheet);
+            }
+        }
+    }
+
+    private static void processFloormanagerSheet(Workbook workbook, Workbook newWorkbook, Workbook refWorkbook) {
+        Sheet sheet = workbook.getSheet("Floormanager");
+        if (sheet == null) {
+            logger.warn("Sheet 'Floormanager' not found.");
+            return;
+        }
+
+        Sheet newSheet = newWorkbook.getSheet("J270-06-demo");
+        if (newSheet == null) {
+            newSheet = newWorkbook.createSheet("J270-06-demo");
+        }
+
+        addHeaderRow(newSheet);
+
+        for (Row row : sheet) {
+            String deviceTag = getDeviceTag(row, 3);
+            String pointDescription = getPointDescription(row, 4);
+            String standardDeviceTag = getStandardDeviceTagSpecificToDeviceTag(deviceTag, pointDescription);
+
+            logger.debug("Row processed - Device Tag: {}, Point Description: {}, Standard Device Tag: {}",
+                    deviceTag, pointDescription, standardDeviceTag);
+
+            if (standardDeviceTag != null) {
+                copyRelatedRowsFromRefAlarmAndParameterListSheet(newSheet, refWorkbook, standardDeviceTag, deviceTag);
+            }
+        }
+    }
+
+    static class WorkbookFactory {
+        static Workbook createWorkbook(File file) throws IOException {
+            try (FileInputStream fis = new FileInputStream(file)) {
+                return file.getName().endsWith(".xlsx") ? new XSSFWorkbook(fis) : new HSSFWorkbook(fis);
+            }
+        }
+    }
+
+    private static void copyRelatedRowsFromRefAlarmAndParameterListSheet(Sheet newSheet, Workbook refWorkbook, String standardDeviceTag, String deviceTag) {
 
         try {
-            copyRows(refWorkbook, newSheet, standardDeviceTag);
+            copyRows(refWorkbook, newSheet, standardDeviceTag, deviceTag);
         } catch (Exception e) {
             logger.error("Error processing reference workbook", e);
         }
@@ -243,7 +260,7 @@ public class Main {
 
 
 
-    private static void copyRows(Workbook refWorkbook, Sheet newSheet, String standardDeviceTag) {
+    private static void copyRows(Workbook refWorkbook, Sheet newSheet, String standardDeviceTag, String deviceTag) {
         List<Row> matchedRows = getDeviceIdRows(standardDeviceTag,refWorkbook);
         // Get the last row number in newSheet to start appending
         int newRowNum = newSheet.getLastRowNum() + 1;
@@ -258,7 +275,9 @@ public class Main {
                 // Copy cell value
                 switch (sourceCell.getCellType()) {
                     case STRING:
-                        newCell.setCellValue(sourceCell.getStringCellValue());
+                        // Replace standardDeviceTag with deviceTag in string values
+                        String updatedValue = sourceCell.getStringCellValue().replace(standardDeviceTag, deviceTag);
+                        newCell.setCellValue(updatedValue);
                         break;
                     case NUMERIC:
                         newCell.setCellValue(sourceCell.getNumericCellValue());
