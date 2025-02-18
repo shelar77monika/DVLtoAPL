@@ -148,7 +148,7 @@ public class Main {
         try {
             logger.info("Processing file: {}", file.getName());
             readAndWriteExcelFile(file, outputFile);
-            logger.info("File processed successfully: {}", newFileName);
+            logger.info("File processed successfully: {} at {}", newFileName, outputFile.getAbsolutePath());
             return "File processed successfully: " + newFileName;
         } catch (IOException e) {
             logger.error("Failed to process file: {}", file.getName(), e);
@@ -186,6 +186,12 @@ public class Main {
                 return;
             }
 
+            Sheet newSheet =  newWorkbook.getSheet("J270-06-demo");
+            if(null == newSheet)
+                newSheet = newWorkbook.createSheet("J270-06-demo");
+
+            addHeaderRow(newSheet);
+
             for (Row row : sheet) {
 
                 String deviceTag = getDeviceTag(row, 3);
@@ -195,7 +201,7 @@ public class Main {
 
 
                 if(null != standardDeviceTag){
-                    copyRelatedRowsFromRefAlarmAndParameterListSheet(newWorkbook, refWorkbook, standardDeviceTag);
+                    copyRelatedRowsFromRefAlarmAndParameterListSheet(newSheet, refWorkbook, standardDeviceTag);
                 }
             }
             newWorkbook.write(fos);
@@ -204,13 +210,9 @@ public class Main {
         }
     }
 
-    private static void copyRelatedRowsFromRefAlarmAndParameterListSheet(Workbook newWorkbook, Workbook refWorkbook, String standardDeviceTag) {
+    private static void copyRelatedRowsFromRefAlarmAndParameterListSheet(Sheet newSheet, Workbook refWorkbook, String standardDeviceTag) {
 
         try {
-            Sheet newSheet =  newWorkbook.getSheet("J270-06-demo");
-            if(null == newSheet)
-                newSheet = newWorkbook.createSheet("J270-06-demo");
-            addHeaderRow(newSheet);
             copyRows(refWorkbook, newSheet, standardDeviceTag);
         } catch (Exception e) {
             logger.error("Error processing reference workbook", e);
@@ -220,7 +222,7 @@ public class Main {
     private static void addHeaderRow(Sheet sheet) {
         Row headerRow = sheet.createRow(0); // Create the first row (header row)
 
-        String[] headers = {"Rev Nr","Nr","Outstation",	"Device Tag","Function","Point Description","EBI Tag","JACE Tag","Range (Low) / State 0","Range (High) / State 1","State 2","State 3","State 4","State 5","State 6","State 7","State 8","State 9","State 16","State 32","State 64","State 128","State 8192","State 16384","State 32768","Delay Timer (Sec)","Hysteresis	Control Level","Electronic Signature Type","Unit","Setting	Controller Alarm Tag","	Alarm Type","Reset","Remarks"
+        String[] headers = {"Rev Nr","Nr","Outstation",	"Device Tag","Function","Point Description","EBI Tag","JACE Tag","Range (Low) / State 0","Range (High) / State 1","State 2","State 3","State 4","State 5","State 6","State 7","State 8","State 9","State 16","State 32","State 64","State 128","State 8192","State 16384","State 32768","Delay Timer (Sec)","Hysteresis","Control Level","Electronic Signature Type","Unit","Setting","Controller Alarm Tag","	Alarm Type","Reset","Remarks"
         };
 
         // Create header style
@@ -305,6 +307,35 @@ public class Main {
         }
         if (deviceTag.contains("Return Air")){
             return "Return Air";
+        }
+
+        if (deviceTag.contains("Chilled Water")) {
+            return "Chilled Water";
+        }
+        if (deviceTag.contains("Hot Water")) {
+            return "Hot Water";
+        }
+        if (deviceTag.contains("Supply Air Flow")) {
+            return "Supply Air Flow";
+        }
+        if (deviceTag.contains("Return Air Flow")) {
+            return "Return Air Flow";
+        }
+        if (deviceTag.contains("Potable Water")) {
+            return "Potable Water";
+        }
+
+        if (deviceTag.contains("Compressed Air")) {
+            return "Compressed Air";
+        }
+        if (deviceTag.contains("Carbon Dioxide Gas")) {
+            return "Carbon Dioxide Gas";
+        }
+        if (deviceTag.contains("Nitrogen Gas")) {
+            return "Nitrogen Gas";
+        }
+        if (deviceTag.contains("Demi Water")) {
+            return "Demi Water";
         }
         return "";
     }
