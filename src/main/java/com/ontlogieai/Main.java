@@ -3,6 +3,7 @@ package com.ontlogieai;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+
 public class Main {
     public static final String UPLOAD_DIR = "uploads/";
     private static final Logger logger = LoggerFactory.getLogger(Main.class);
@@ -13,6 +14,7 @@ public class Main {
         UIUtil.setLookAndFeel();
         UIUtil.createAndShowGUI();
         logger.info("Application started successfully.");
+        System.out.println("Application is started");
     }
 
 }
