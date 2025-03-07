@@ -14,6 +14,7 @@ public class Configuration {
     private int deviceTagIndex;
     private int pointDescriptionIndex;
     private int pointDescriptionIndexInOutputFile;
+    private int deviceTagIndexInOutputFile;
 
     @JsonProperty("deviceTagMapping")
     private Map<String, String> deviceTagMapping;

@@ -157,7 +157,7 @@ public class ExcelProcessor {
 
             switch (sourceCell.getCellType()) {
                 case STRING:
-                    if(sourceCell.getColumnIndex() == configuration.getDeviceTagIndex()){
+                    if(sourceCell.getColumnIndex() == configuration.getDeviceTagIndexInOutputFile()){
                         newCell.setCellValue(sourceCell.getStringCellValue().replace(standardDeviceTag, deviceTag));
                     }else if(sourceCell.getColumnIndex() == configuration.getPointDescriptionIndexInOutputFile()){
                         String regexPointDescriptor = getRegexPointDescriptor(pointDescription, deviceTag);
