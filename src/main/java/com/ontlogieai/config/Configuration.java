@@ -13,6 +13,7 @@ public class Configuration {
 
     private int deviceTagIndex;
     private int pointDescriptionIndex;
+    private int pointDescriptionIndexInOutputFile;
 
     @JsonProperty("deviceTagMapping")
     private Map<String, String> deviceTagMapping;
@@ -20,4 +21,6 @@ public class Configuration {
     @JsonProperty("deviceKeyMapping")
     private Map<String, List<String>> deviceKeyMapping;
 
+    @JsonProperty("requiredHeaders")
+    private List<String> requiredHeaders;
 }

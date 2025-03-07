@@ -1,7 +1,8 @@
 {
-
+  "requiredHeaders": ["Device Tag", "Point Descriptor"],
   "deviceTagIndex": 3,
   "pointDescriptionIndex": 4,
+  "pointDescriptionIndexInOutputFile": 5,
   "deviceTagMapping": {
     "TT-Potable Water - Temperature": "J100-06-2TT-001",
     "TT-Potable Hot Water": "J100-06-2TT-002",

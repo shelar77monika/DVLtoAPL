@@ -15,11 +15,6 @@ public class DeviceTagMapper {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(DeviceTagMapper.class.getName());
 
-    private static final Set<String> DEVICE_TYPES = Set.of(
-            "TT", "FT", "MT", "PT", "ACU", "XC", "TC", "QIT", "UPS",
-            "VAV", "XT", "XA", "FCV", "KS", "XI", "PMP"
-    );
-
     private Configuration configuration;
 
     public DeviceTagMapper(){
@@ -31,7 +26,7 @@ public class DeviceTagMapper {
             LOGGER.info("Here we need to debug...");
         }
 
-        String keyPrefix = getDeviceType(deviceTag);
+        String keyPrefix = DeviceTagUtility.getDeviceType(deviceTag);
         String deviceKeyPostfix = getDeviceKey(keyPrefix, pointDescription);
         String deviceKey = keyPrefix + "-" + deviceKeyPostfix;
 
@@ -53,15 +48,6 @@ public class DeviceTagMapper {
             }
         }
         return Optional.empty();
-    }
-
-    private static String getDeviceType(String deviceTag) {
-        if (deviceTag == null || deviceTag.isEmpty()) return "";
-
-        return DEVICE_TYPES.stream()
-                .filter(deviceTag::contains)
-                .findFirst()
-                .orElse("");
     }
 
 }
