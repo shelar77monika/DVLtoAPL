@@ -1,8 +1,8 @@
-package com.ontlogieai;
+package com.ontlogieai.transformation;
 
+import com.ontlogieai.Main;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.*;
-import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,7 +23,13 @@ public class ExcelProcessor {
             "Reset", "Remarks"
     };
 
-    public static void readAndWriteExcelFile(File inputFile, File outputFile) throws IOException {
+    private final DeviceTagMapper deviceTagMapper;
+
+    public ExcelProcessor(){
+        deviceTagMapper = new DeviceTagMapper();
+    }
+
+    public void readAndWriteExcelFile(File inputFile, File outputFile) throws IOException {
         LOGGER.info("Reading Excel file: {}", inputFile.getName());
 
         try (Workbook workbook = WorkbookFactory.createWorkbook(inputFile);
@@ -55,7 +61,7 @@ public class ExcelProcessor {
         return (sheet != null) ? sheet : workbook.createSheet(sheetName);
     }
 
-    private static void processFloormanagerSheet(Workbook workbook, Workbook newWorkbook, Workbook refWorkbook) {
+    private  void processFloormanagerSheet(Workbook workbook, Workbook newWorkbook, Workbook refWorkbook) {
         Sheet sheet = workbook.getSheet("Floormanager");
         if (sheet == null) {
             LOGGER.warn("Sheet 'Floormanager' not found.");
@@ -73,10 +79,10 @@ public class ExcelProcessor {
         }
     }
 
-    private static void processRow(Row row, Sheet newSheet, Workbook refWorkbook, int deviceTagColumnIndex, int pointDescriptorColumnIndex) {
+    private  void processRow(Row row, Sheet newSheet, Workbook refWorkbook, int deviceTagColumnIndex, int pointDescriptorColumnIndex) {
         String deviceTag = getCellValue(row, deviceTagColumnIndex);
         String pointDescription = getCellValue(row, pointDescriptorColumnIndex);
-        String standardDeviceTag = DeviceTagMapper.getStandardDeviceTag(deviceTag, pointDescription);//getStandardDeviceTagSpecificToDeviceTag(deviceTag, pointDescription);
+        String standardDeviceTag = deviceTagMapper.getStandardDeviceTag(deviceTag, pointDescription);//getStandardDeviceTagSpecificToDeviceTag(deviceTag, pointDescription);
 
         LOGGER.debug("Processing row - Device Tag: {}, Point Description: {}, Standard Device Tag: {}",
                 deviceTag, pointDescription, standardDeviceTag);

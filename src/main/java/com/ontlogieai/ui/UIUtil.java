@@ -1,5 +1,6 @@
-package com.ontlogieai;
+package com.ontlogieai.ui;
 
+import com.ontlogieai.file.FileProcessor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,7 +11,13 @@ import java.awt.*;
 public class UIUtil {
     private static final Logger LOGGER = LoggerFactory.getLogger(UIUtil.class);
 
-    public static void setLookAndFeel() {
+    private final FileProcessor fileProcessor;
+
+    public UIUtil(){
+        fileProcessor = new FileProcessor();
+    }
+
+    public void setLookAndFeel() {
         try {
             UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
             LOGGER.info("Look and feel set successfully.");
@@ -19,7 +26,7 @@ public class UIUtil {
         }
     }
 
-    public static void createAndShowGUI() {
+    public void createAndShowGUI() {
         JFrame frame = new JFrame("DVL TO AVL");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(500, 300);
@@ -31,7 +38,7 @@ public class UIUtil {
         JLabel headerLabel = createLabel("Company Name (TODO)", Font.BOLD, 20);
         JButton uploadButton = createButton("DVL To AVL");
 
-        uploadButton.addActionListener(e -> FileProcessor.handleFileUpload(frame));
+        uploadButton.addActionListener(e -> fileProcessor.handleFileUpload(frame));
 
         mainPanel.add(headerLabel);
         mainPanel.add(Box.createRigidArea(new Dimension(0, 15)));

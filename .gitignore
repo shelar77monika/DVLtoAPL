@@ -39,5 +39,7 @@ build/
 
 log
 
+data/.~lock.*
+
 DVLtoAPL-*.exe
 

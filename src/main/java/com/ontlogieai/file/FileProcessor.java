@@ -1,5 +1,7 @@
-package com.ontlogieai;
+package com.ontlogieai.file;
 
+import com.ontlogieai.transformation.ExcelProcessor;
+import com.ontlogieai.Main;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,14 +13,20 @@ public class FileProcessor {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(FileProcessor.class);
 
-    public static void handleFileUpload(JFrame frame) {
+    private final ExcelProcessor excelProcessor;
+
+    public FileProcessor(){
+        excelProcessor = new ExcelProcessor();
+    }
+
+    public void handleFileUpload(JFrame frame) {
         JFileChooser fileChooser = new JFileChooser();
         if (fileChooser.showOpenDialog(frame) == JFileChooser.APPROVE_OPTION) {
             processFile(fileChooser.getSelectedFile());
         }
     }
 
-    public static void processFile(File file) {
+    public void processFile(File file) {
         if (!(file.getName().endsWith(".xls") || file.getName().endsWith(".xlsx"))) {
             LOGGER.warn("Invalid file format: {}", file.getName());
             return;
@@ -29,7 +37,7 @@ public class FileProcessor {
 
         try {
             LOGGER.info("Processing file: {}", file.getName());
-            ExcelProcessor.readAndWriteExcelFile(file, outputFile);
+            excelProcessor.readAndWriteExcelFile(file, outputFile);
             LOGGER.info("File processed successfully: {} at location {}", newFileName, outputFile.getAbsolutePath());
         } catch (IOException e) {
             LOGGER.error("Failed to process file: {}", file.getName(), e);
